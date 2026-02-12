@@ -53,4 +53,4 @@ SIG Extensibility distinguishes between short-term and long-term activities.
 
 Short-term activities have a commitment to be actively worked on within the next three months and are tracked as GitHub issues (see [SIG Extensibility Board](https://github.com/orgs/openmcp-project/projects/15/views/5)).
 
-Long-term activities are captured as requests for comments (see [RFC Overview]()). RFCs serve as the primary mechanism for discussing and refining future work and result in GitHub issues once the commitment to implement an RFC has been made.
+Long-term activities are captured as PRs in a request for comments format (see [RFC Overview]()). RFCs serve as the primary mechanism for discussing and refining future work. An RFC results in GitHub issues once the PR has been merged and the commitment to implement an RFC has been made.
