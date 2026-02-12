@@ -17,7 +17,7 @@ Topics like provider design, discovery and access management are cross-cutting w
 ### Out of Scope
 
 - Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ManagedControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core]() if identified based on the usage in SIG extensibility.
-- Platform services that are fundamentally required to run a Cloud Orchestrator platform are owned by [SIG Core](), e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway).
+- Platform services that are considered fundamental and required for the majority of Cloud Orchestrator platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core]().
 
 ## Roles and Responsibilities
 
