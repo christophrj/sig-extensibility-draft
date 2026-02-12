@@ -49,4 +49,8 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ## Roadmap
 
-[SIG Extensibility (Draft)](https://github.com/orgs/openmcp-project/projects/15/views/5)
+SIG Extensibility distinguishes between short-term and long-term activities.
+
+Short-term activities have a commitment to be actively worked on within the next three months and are tracked as GitHub issues (see [SIG Extensibility Board](https://github.com/orgs/openmcp-project/projects/15/views/5)).
+
+Long-term activities are exploratory or strategic in nature and are managed via RFCs (see [RFC Overview]()).
