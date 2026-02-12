@@ -4,7 +4,7 @@
 
 ## Scope
 
- SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster-providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform-services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of [Cloud Orchestrator](https://github.com/openmcp-project).
+ SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of [Cloud Orchestrator](https://github.com/openmcp-project).
 
 Topics like provider design, discovery and access management are cross-cutting with [SIG Core]() and will be discussed and assigned to either SIG on a per-topic basis.
 
@@ -17,7 +17,7 @@ Topics like provider design, discovery and access management are cross-cutting w
 ### Out of Scope
 
 - Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ManagedControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core]() if identified based on the usage in SIG extensibility.
-- Platform services that are fundamentally required to run a Cloud Orchestrator platform, are owned by [SIG Core](), e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway).
+- Platform services that are fundamentally required to run a Cloud Orchestrator platform are owned by [SIG Core](), e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway).
 
 ## Roles and Responsibilities
 
