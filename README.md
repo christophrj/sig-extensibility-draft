@@ -74,7 +74,6 @@ stateDiagram-v2
 
     Issue --> [*]
     state Issue {
-        [*] --> Backlog
         Backlog --> InProgress
         InProgress --> Review
         Review --> Done
