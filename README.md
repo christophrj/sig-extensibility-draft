@@ -54,3 +54,29 @@ SIG Extensibility distinguishes between short-term and long-term activities.
 Short-term activities have a commitment to be actively worked on within the next three months and are tracked as GitHub issues (see [SIG Extensibility Board](https://github.com/orgs/openmcp-project/projects/15/views/5)).
 
 Long-term activities are captured as PRs in a request for comments format (see [RFC Overview]()). RFCs serve as the primary mechanism for discussing and refining future work. An RFC results in GitHub issues once the PR has been merged and the commitment to implement an RFC has been made.
+
+```mermaid
+---
+title: Simple sample
+---
+stateDiagram-v2
+    state commitment <<choice>>
+    [*] --> Activity
+    Activity --> commitment
+    commitment --> RFC: long-term/no immediate work commitment
+    state RFC {
+        [*] --> Open: PR created
+        Open --> Closed: PR merged
+    }
+    commitment --> Issue: active work commitment
+
+    RFC --> Issue: active work commitment
+
+    Issue --> [*]
+    state Issue {
+        [*] --> Backlog
+        Backlog --> InProgress
+        InProgress --> Review
+        Review --> Done
+    }
+```
