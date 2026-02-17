@@ -1,3 +1,5 @@
+moved to [openmcp-project/community](https://github.com/openmcp-project/community)
+
 # SIG Extensibility Charter
 
 ! DRAFT !
