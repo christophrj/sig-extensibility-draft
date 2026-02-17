@@ -65,15 +65,21 @@ stateDiagram-v2
     Activity --> commitment
     commitment --> RFC: long-term/no immediate work commitment
     state RFC {
-        [*] --> Open: PR created
+        EP: Enhancement Roadmap
+        Open: RFC open
+        Closed: RFC closed
+        [*] --> EP: Issue created
+        EP --> Open: PR created
         Open --> Closed: PR merged
     }
-    commitment --> Issue: active work commitment
+    commitment --> Roadmap: active work commitment
 
-    RFC --> Issue: active work commitment
+    RFC --> Roadmap: active work commitment
 
-    Issue --> [*]
-    state Issue {
+    Roadmap: 3 Month Roadmap
+    Roadmap --> [*]
+    state Roadmap{
+        [*] --> Backlog: Issue created
         Backlog --> InProgress
         InProgress --> Review
         Review --> Done
